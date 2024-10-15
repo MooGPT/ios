@@ -26,6 +26,8 @@ class ViewController: UIViewController {
             return "Today's news includes a major breakthrough in renewable energy."
         } else if lowercasedQuery.contains("sports") {
             return "The local team won their championship game last night!"
+        } else if lowercasedQuery.contains("love") {
+            return "I'm watching I love you! We'll see rate please iOS. Download app MooGPT! (⁠・⁠∀⁠・⁠)"     
         } else {
             return "I'm sorry, I don't have information on that topic."
         }
